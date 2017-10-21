@@ -15,6 +15,9 @@ import kotlin.concurrent.thread
  * @author Jelle Stege
  */
 class BackupManagerFactory(parser: ArgParser) {
+    /**
+     * Logging utility
+     */
     val log = KotlinLogging.logger { }
 
     /**
